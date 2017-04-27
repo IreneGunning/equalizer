@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2017 at 01:41 PM
+-- Generation Time: Apr 27, 2017 at 05:29 PM
 -- Server version: 10.1.9-MariaDB
 -- PHP Version: 5.6.15
 
@@ -92,7 +92,7 @@ CREATE TABLE `articles_tbl` (
 INSERT INTO `articles_tbl` (`article_id`, `category_id`, `article_title`, `article_writer`, `article_photo`, `article_headline`, `article_story`, `article_date`, `article_views`, `article_featured`, `year`) VALUES
 (7, 2, 'Sample Title', 'Sample Writer', '12417795_10153646616614300_6056490163123349950_n.jpg', 'This Is A Headline', 'This Is A Story', '2017-04-22', 27, 'yes', 2017),
 (8, 3, 'Second Title', 'Second Writer', 'IMG_20170203_091405.jpg', 'Head 2', 'Story 2', '2017-04-29', 47, 'yes', 2017),
-(9, 1, 'Op', 'russel', 'P_20160307_172704.jpg', 'Asdas', 'Asdasd', '2017-04-07', 36, 'yes', 2017),
+(9, 1, 'Op', 'russel', 'P_20160307_172704.jpg', 'Asdas', 'Asdasd', '2017-04-07', 38, 'yes', 2017),
 (10, 1, 'Asdasd', 'chonna', 'P_20160106_132436.jpg', 'Asdasd', 'Asdasd', '2017-04-15', 79, 'yes', 2017),
 (11, 10, 'As2', 'Asdasd', '16114008_10154028209956059_3368224433459662596_n.jpg', 'Asdas Asd', ' Asd Asd', '2017-04-23', 15, 'no', 2017),
 (12, 11, 'Sdasd', 'D Asd', '15977336_10208138843051901_940078783610412896_n.jpg', ' Asd', 'As D', '2017-04-15', 2, 'yes', 2017),
@@ -208,7 +208,7 @@ INSERT INTO `daily_view_tbl` (`view_id`, `date`, `article_views`) VALUES
 (12, '2017-04-10', 14),
 (13, '2017-04-18', 16),
 (14, '2017-04-19', 3),
-(15, '2017-04-26', 22);
+(15, '2017-04-26', 24);
 
 -- --------------------------------------------------------
 
@@ -251,7 +251,7 @@ CREATE TABLE `issue_type_tbl` (
 INSERT INTO `issue_type_tbl` (`issue_type_id`, `issue_type_name`) VALUES
 (1, 'Newsletter'),
 (2, 'Tabloid'),
-(3, 'Broadsheed'),
+(3, 'Broadsheet'),
 (4, 'Balas'),
 (5, 'Sabulum');
 
@@ -561,7 +561,7 @@ ALTER TABLE `admin_tbl`
 -- AUTO_INCREMENT for table `announcement_tbl`
 --
 ALTER TABLE `announcement_tbl`
-  MODIFY `announce_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `announce_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `articles_tbl`
 --
